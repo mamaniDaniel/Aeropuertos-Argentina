@@ -1,0 +1,2 @@
+# ignorar la carpeta de configuracion del live server de visual studio code
+.vscode/
