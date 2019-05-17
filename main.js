@@ -48,7 +48,7 @@ function filtrarDatos(results) {
 
 //pre:recibe un array de aeropuertos
 //post:crea y muestra marcadores con los aeropuertos
-async function crearMarcadores (aeropuertosArg) {
+function crearMarcadores (aeropuertosArg) {
     console.log(aeropuertosArg);
     var marker;
     for (let index = 0; index < aeropuertosArg.length; index++) {
